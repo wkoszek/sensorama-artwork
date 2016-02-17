@@ -8,4 +8,4 @@ if [ "$T" != "/usr/local/bin/sketchtool" ]; then
 	exit 64
 fi
 
-$T export artboards $F
+$T export slices $F
