@@ -9,3 +9,7 @@ fi
 	cd assets-android/
 	tar cf - res | tar xf - -C ../../sensorama/app/android/Sensorama/app/src/main/
 )
+(
+	cd assets-ios/
+	tar cf - Assets.xcassets | tar xf - -C /w/repos/sensorama-ios/Sensorama/Sensorama/
+)
