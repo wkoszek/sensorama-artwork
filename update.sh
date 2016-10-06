@@ -11,5 +11,5 @@ fi
 )
 (
 	cd assets-ios/
-	tar cf - Assets.xcassets | tar xf - -C /w/repos/sensorama-ios/Sensorama/Sensorama/
+	tar cf - Assets.xcassets | tar xf - -C ../../sensorama-ios/Sensorama/Sensorama/
 )
